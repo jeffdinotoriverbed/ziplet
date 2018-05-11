@@ -2,6 +2,7 @@ ziplet
 ===============
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.ziplet/ziplet/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.ziplet/ziplet)
 [![Build Status](https://travis-ci.org/ziplet/ziplet.svg?branch=master)](https://travis-ci.org/ziplet/ziplet)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjeffdinotoriverbed%2Fziplet.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjeffdinotoriverbed%2Fziplet?ref=badge_shield)
 
 This filter can, based on HTTP headers in a HttpServletRequest, compress data written to the HttpServletResponse, or decompress data read from the request. When supported by the client browser, this can potentially greatly reduce the number of bytes written across the network from and to the client. As a Filter, this class can also be easily added to any J2EE 1.3+ web application.
 
@@ -128,3 +129,7 @@ License
 -------
 
 This project is published under the Apache License, Version 2.0. For details see files LICENSE and NOTICE.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjeffdinotoriverbed%2Fziplet.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjeffdinotoriverbed%2Fziplet?ref=badge_large)
